@@ -1,0 +1,59 @@
+
+h1{
+    font-size: 40px;
+}
+.text-dark{
+    font-size: 20px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.form-label{
+    font-size: 32px;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+
+button {
+    background-color: purple; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+  }
+.form-control{
+    position: relative;
+    font-family: Arial;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.form-control select{
+    display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
